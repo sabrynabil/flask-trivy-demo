@@ -25,7 +25,7 @@ pipeline {
             }
         }
 
-        stage('Run Trivy Vulnerability Scan') {
+        stage('Run Trivy Vulnerability Scan') { 
             steps {
                 echo 'Running Trivy vulnerability scan...'
                 sh '''
